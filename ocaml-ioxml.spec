@@ -1,7 +1,7 @@
 %define up_name	ioxml
 %define name	ocaml-%{up_name}
 %define version	0.8
-%define release	%mkrel 1
+%define release	%mkrel 9
 
 Name:		%{name}
 Version:	%{version}
