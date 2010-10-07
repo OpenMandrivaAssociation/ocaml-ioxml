@@ -12,7 +12,7 @@ License:    MIT
 URL:        http://cristal.inria.fr/~ddr/IoXML/
 Source0:    http://cristal.inria.fr/~ddr/IoXML/distrib/src/%{up_name}-%{version}.tgz
 BuildRequires:  ocaml
-BuildRequires:  ocaml-camlp5-devel
+BuildRequires:  camlp5
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
