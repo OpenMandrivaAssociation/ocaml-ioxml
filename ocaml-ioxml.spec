@@ -11,6 +11,7 @@ Group:      Development/Other
 License:    MIT
 URL:        https://cristal.inria.fr/~ddr/IoXML/
 Source0:    http://cristal.inria.fr/~ddr/IoXML/distrib/src/%{up_name}-%{version}.tgz
+BuildRequires:	make
 BuildRequires:  ocaml
 BuildRequires:  camlp5
 BuildRoot:	%{_tmppath}/%{name}-%{version}
